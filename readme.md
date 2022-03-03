@@ -5,9 +5,6 @@ Facts
 -----
 - version: 1.0.0
 - extension key: Coresh_ProductSubTitle
-- [extension on Magento Connect](http://www.magentocommerce.com/magento-connect/coresh)-productsubtitle-1234.html)
-- Magento Connect 1.0 extension key: magento-community/Coresh_ProductSubTitle
-- Magento Connect 2.0 extension key: http://connect20.magentocommerce.com/community/Coresh_ProductSubTitle
 - [extension on GitHub](https://github.com/coresh/magento-2-product-sub-title)
 
 Description
