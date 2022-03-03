@@ -1,0 +1,24 @@
+{
+    "name": "coresh/magento-2-product-sub-title",
+    "description": "Magento 2 Product Sub Title",
+    "type": "magento2-module",
+    "license": [
+        "proprietary"
+    ],
+    "authors":[
+        {
+            "name":"Dmitrii Dmitriev",
+            "email":"1753595@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Coresh\\ProductSubTitle\\": ""
+        }
+    }
+}
