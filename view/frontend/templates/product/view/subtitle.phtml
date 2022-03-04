@@ -2,5 +2,5 @@
 $subtitle = $block->getProduct()->getResource()->getAttribute('subtitle')->getFrontend()->getValue($block->getProduct());
 ?>
 <?php if ($subtitle) : ?>
-<h4><?php /* @escapeNotVerified */ echo $subtitle; ?></h4>
+<h4 class="geninfo"><?php /* @escapeNotVerified */ echo $subtitle; ?></h4>
 <?php endif ?>
