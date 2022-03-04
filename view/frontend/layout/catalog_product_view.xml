@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+  <body>
+    <!-- <referenceContainer name="page.main.title"> -->
+    <!-- <referenceContainer name="page.title.wrapper"> -->
+    <!-- <referenceBlock name="page.main.title"> -->
+    <!-- <block class="Magento\Catalog\Block\Product\View\Description" name="product.subtitle" template="product/view/subtitle.phtml" /> -->
+    <!-- <action method="setTemplate"> -->
+    <!--     <argument name="template" xsi:type="string">Coresh_ProductSubTitle::product/view/subtitle.phtml</argument> -->
+    <!--  -->
+    <!-- </action> -->
+    <!-- <block class="Coresh\ProductSubTitle\Block\Product\View\Subtitle" name="product.subtitle" as="textblock" before="-" template="product/view/subtitle.phtml" /> -->
+    <!-- <block class="Coresh\ProductSubTitle\Block\Product\View\Subtitle" name="product.subtitle" as="product.subtitle" after="-" template="product/view/subtitle.phtml"/> -->
+    <!-- </referenceContainer> -->
+    <!-- </referenceBlock> -->
+    <referenceBlock name="page.main.title">
+      <block class="Coresh\ProductSubTitle\Block\Product\View\Subtitle" name="product.subtitle" as="product.subtitle" after="-" template="product/view/subtitle.phtml"/>
+    </referenceBlock>
+  </body>
+</page>
