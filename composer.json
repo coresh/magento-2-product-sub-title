@@ -1,6 +1,7 @@
 {
     "name": "coresh/magento-2-product-sub-title",
     "description": "Magento 2 Product Sub Title",
+    "version": "1.0.0",
     "type": "magento2-module",
     "license": [
         "proprietary"
