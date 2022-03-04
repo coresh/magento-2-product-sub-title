@@ -1,1 +1,6 @@
-<h4><?php /* @escapeNotVerified */ echo $block->getProduct()->getResource()->getAttribute('subtitle')->getFrontend()->getValue($block->getProduct()); ?></h4>
+<?php
+$subtitle = $block->getProduct()->getResource()->getAttribute('subtitle')->getFrontend()->getValue($block->getProduct());
+?>
+<?php if ($subtitle) : ?>
+<h4><?php /* @escapeNotVerified */ echo $subtitle; ?></h4>
+<?php endif ?>
