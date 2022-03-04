@@ -3,7 +3,7 @@ Coresh ProductSubTitle Extension
 Coresh ProductSubTitle
 Facts
 -----
-- version: 1.0.0
+- version: 1.0.1
 - extension key: Coresh_ProductSubTitle
 - [extension on GitHub](https://github.com/coresh/magento-2-product-sub-title)
 
